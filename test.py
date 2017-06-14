@@ -9,7 +9,6 @@ def weixin(s):
     return ss.encode('utf-8')
 
 def SYSUBiu_post(s):
-    #url = 'http://47.93.26.127:80/api/query'
     url = 'http://localhost:8000/api/query'
     response = requests.post(url=url, headers={'Content-type': 'text/xml'}, data=weixin(s))
     data = ET.fromstring(response.text)
