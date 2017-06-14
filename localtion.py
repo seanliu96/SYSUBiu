@@ -4,7 +4,7 @@
 import requests
 import json
 
-key = '123456'
+key = '583b5b23b85e125bcc56c3cfe2f8e234'
 
 def get_info(keywords):
     if '中大' in keywords:

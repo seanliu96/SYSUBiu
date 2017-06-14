@@ -7,8 +7,8 @@ import hashlib
 import random
 import urllib.parse
 
-appid = '123456'
-key = 'key'
+appid = '20170607000054847'
+key = 'Y_39v6N3m7V7SyTQElO5'
 
 def translate(q, f, t):
     salt = str(random.randint(32768, 65536))
