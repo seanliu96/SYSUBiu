@@ -1,0 +1,6 @@
+SERVER_IP = "0.0.0.0"
+SERVER_PORT = "80"
+SERVER_ROOT_URL = "http://" + SERVER_IP + ":" + SERVER_PORT
+SYSUBiu_API = SERVER_ROOT_URL + "/api/query"
+
+TOKEN = "SYSUBiu"
